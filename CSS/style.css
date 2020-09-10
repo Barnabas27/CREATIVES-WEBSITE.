@@ -1,0 +1,37 @@
+
+.first li {
+    display: inline;
+}
+.first a:hover {
+    padding:10px;
+    background-color:limegreen;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.first ul {
+    background-color: indigo;
+    padding: 40px 100px;
+    box-sizing: border-box;
+    margin:0 0 0 0;
+}
+.first li a  {
+    color:white;
+    padding: 80px;
+
+}
+.second li {
+    display:inline;
+}
+.second ul {
+    background-color: limegreen;
+    padding: 30px 100px;
+    margin:0 0 0 0;
+}
+.second li a {
+    color: black;
+    padding:200px;
+}
+#buton {
+    
+
+}
