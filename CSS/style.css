@@ -1,22 +1,30 @@
+body {
+    background-image: url("/Images/my-life-through-a-lens-bq31L0jQAjU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
 .first li {
     display: inline;
 }
-.first a:hover {
-    padding:10px;
+.first nav ul li a:hover{
+    transition: 1s;
     background-color:limegreen;
-    flex-direction: row;
-    justify-content: space-between;
+    
+    
 }
+
 .first ul {
     background-color: indigo;
     padding: 40px 100px;
     box-sizing: border-box;
     margin:0 0 0 0;
+    width: 100%;
 }
 .first li a  {
     color:white;
     padding: 80px;
+    text-decoration: none;
 
 }
 .second li {
@@ -31,7 +39,66 @@
     color: black;
     padding:200px;
 }
-#buton {
-    
+ .button3{
+     float:left;
+     width:261px;
+     height:149px;
+     left:251px;
+     top:384px;
+     border-radius: 100%;
+     background-color:black;
+    color:white;
+ }
+ .button4 {
+    width:261px;
+     height:149px;
+     left:251px;
+     top:384px;
+     border-radius: 100%;
+     background-color:black;
+    color:white;
+ }
+ .button5 {
+    width:261px;
+    height:149px;
+    left:118px;
+    top:384px;
+    border-radius: 100%;
+    background-color:black;
+    color:white;
+ }
+ #buton {
+     background-color:black;
+     display: flex;
+     height: 50px;
+     justify-content: flex-end;
+     align-items: center;
+ }
+ #zebody {
+     display: flex;
+     justify-content: space-around;
+ }
+ .footer {
+     
+     color: white;
+     height: 350px;
+     margin-bottom: 0;
+ }
+ 
+ .footer{
+    background-color:rgb(16, 9, 20);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items:center;
 
+ }
+.icons i {
+    color:white;
+    padding:5px;
 }
