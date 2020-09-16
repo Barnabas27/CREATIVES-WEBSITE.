@@ -1,104 +1,108 @@
-body {
-    background-image: url("../Images/my-life-through-a-lens-bq31L0jQAjU-unsplash.jpg");
-    background-repeat: no-repeat;
+/* html {
+    background-image: url("/Images/my-life-through-a-lens-bq31L0jQAjU-unsplash.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+} */
+.first{
+background-color: #0B0828;
+color:white;
+display:flex;
+justify-content: space-between;
+width: 100%;
 
 }
-.first li {
-    display: inline;
-}
-.first nav ul li a:hover{
-    transition: 1s;
-    background-color:limegreen;
-    
-    
-}
-
-.first ul {
-    background-color: indigo;
-    padding: 40px 100px;
-    box-sizing: border-box;
-    margin:0 0 0 0;
-    width: 100%;
-}
-.first li a  {
-    color:white;
-    padding: 80px;
-    text-decoration: none;
+ul {
+    list-style: none;
 
 }
-.second li {
-    display:inline;
-}
-.second ul {
-    background-color: limegreen;
-    padding: 30px 100px;
-    margin:0 0 0 0;
-}
-.second li a {
-    color: black;
-    padding:200px;
-}
- .button3{
-     float:left;
-     width:261px;
-     height:149px;
-     left:251px;
-     top:384px;
-     border-radius: 100%;
-     background-color:black;
-    color:white;
- }
- .button4 {
-    width:261px;
-     height:149px;
-     left:251px;
-     top:384px;
-     border-radius: 100%;
-     background-color:black;
-    color:white;
- }
- .button5 {
-    width:261px;
-    height:149px;
-    left:118px;
-    top:384px;
-    border-radius: 100%;
-    background-color:black;
-    color:white;
- }
- #buton {
-     background-color:black;
-     display: flex;
-     height: 50px;
-     justify-content: flex-end;
-     align-items: center;
- }
- #zebody {
-     display: flex;
-     justify-content: space-around;
- }
- .footer {
-     
-     color: white;
-     height: 350px;
-     margin-bottom: 0;
- }
- 
- .footer{
-    background-color:rgb(16, 9, 20);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 120px;
-    width: 100%;
+.nav_links{
     overflow: hidden;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-
- }
-.icons i {
-    color:white;
-    padding:5px;
+  background-color: #333;
+  font-family: Arial;
 }
+.nav_links a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+.nav_links a:hover, .dropdown:hover .dropbtn {
+    background-color: limegreen;
+}
+.dropdown_list {
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown_list a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown_list a:hover{
+    background-color: grey;
+}
+.dropdown:hover .dropdown_list {
+    display:block;
+}
+.first .buton {
+    text-align: center;
+}
+log in html{
+    flex-direction: column;
+}
+.listings {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.footer {
+    background-color:#0B082B;
+    position: relative;
+    left:0;
+    bottom:0;
+    right:0;
+    text-align:center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .socials i {
+        color:white;
+        padding-right: 50px;
+     
+    }
+    .left, .right{
+        display: flex;
+    }
+    .paragraph-1, .paragraph-2{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .essentials{
+        display: flex;
+        justify-content: space-around;
+    }
